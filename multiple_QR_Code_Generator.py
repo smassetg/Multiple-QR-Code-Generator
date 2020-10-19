@@ -14,7 +14,7 @@ for i in range (1, mr+1):
     for j in range (1, mc+1):
         #This cycles through the names in the excel sheet, and saves in the 'new_name' variable
         string = ws1.cell(row = i, column = j).value
-        print("i =", i) # These lines shows how the for loop is working
+        print("i =", i) # These lines shows how the for loop is working and can be commented out / deleted
         print("j =", j)
         print("string =", string)
 
